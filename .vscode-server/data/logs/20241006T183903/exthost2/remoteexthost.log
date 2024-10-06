@@ -62,3 +62,4 @@
 2024-10-06 21:56:57.616 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
 2024-10-06 21:56:58.406 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
 2024-10-06 21:56:59.072 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-10-06 22:50:17.085 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.

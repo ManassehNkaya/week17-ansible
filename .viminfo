@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:q
-|2,0,1728250748,,"q"
 :wq
-|2,0,1728147404,,"wq"
+|2,0,1728255549,,"wq"
+:q
+|2,0,1728255535,,"q"
 
 # Search String History (newest to oldest):
 
@@ -27,34 +27,64 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
-|4,48,1,0,1728250748,"~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml"
-'1  1  0  ~/ansible-dev/inv.yml
-|4,49,1,0,1728208777,"~/ansible-dev/inv.yml"
-'2  1  0  ~/ansible-dev/inv
-|4,50,1,0,1728208747,"~/ansible-dev/inv"
+'0  11  1  ~/.git/COMMIT_EDITMSG
+|4,48,11,1,1728255549,"~/.git/COMMIT_EDITMSG"
+'1  5  33  ~/.gitconfig
+|4,49,5,33,1728255344,"~/.gitconfig"
+'2  1  0  ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
+|4,50,1,0,1728250748,"~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml"
 '3  1  0  ~/ansible-dev/inv.yml
-|4,51,1,0,1728207486,"~/ansible-dev/inv.yml"
-'4  12  18  ~/ansible-dev/inventory.yml
-|4,52,12,18,1728147404,"~/ansible-dev/inventory.yml"
-'5  4  12  ~/ansible-dev/inventory.yml
-|4,53,4,12,1728147266,"~/ansible-dev/inventory.yml"
-'6  4  12  ~/ansible-dev/inventory.yml
-|4,54,4,12,1728147266,"~/ansible-dev/inventory.yml"
-'7  6  27  ~/ansible-dev/ansible.cfg
-|4,55,6,27,1728146671,"~/ansible-dev/ansible.cfg"
-'8  10  2  ~/ansible-dev/inventory.yml
-|4,56,10,2,1728146549,"~/ansible-dev/inventory.yml"
-'9  10  2  ~/ansible-dev/inventory.yml
-|4,57,10,2,1728146549,"~/ansible-dev/inventory.yml"
+|4,51,1,0,1728208777,"~/ansible-dev/inv.yml"
+'4  1  0  ~/ansible-dev/inv
+|4,52,1,0,1728208747,"~/ansible-dev/inv"
+'5  1  0  ~/ansible-dev/inv.yml
+|4,53,1,0,1728207486,"~/ansible-dev/inv.yml"
+'6  12  18  ~/ansible-dev/inventory.yml
+|4,54,12,18,1728147404,"~/ansible-dev/inventory.yml"
+'7  4  12  ~/ansible-dev/inventory.yml
+|4,55,4,12,1728147266,"~/ansible-dev/inventory.yml"
+'8  4  12  ~/ansible-dev/inventory.yml
+|4,56,4,12,1728147266,"~/ansible-dev/inventory.yml"
+'9  6  27  ~/ansible-dev/ansible.cfg
+|4,57,6,27,1728146671,"~/ansible-dev/ansible.cfg"
 
 # Jumplist (newest first):
+-'  11  1  ~/.git/COMMIT_EDITMSG
+|4,39,11,1,1728255549,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1728255359,"~/.git/COMMIT_EDITMSG"
+-'  5  33  ~/.gitconfig
+|4,39,5,33,1728255344,"~/.gitconfig"
+-'  5  33  ~/.gitconfig
+|4,39,5,33,1728255344,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1728255256,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1728255256,"~/.gitconfig"
+-'  1  0  ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
+|4,39,1,0,1728250748,"~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml"
+-'  1  0  ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
+|4,39,1,0,1728250748,"~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml"
+-'  1  0  ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
+|4,39,1,0,1728250748,"~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml"
 -'  1  0  ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
 |4,39,1,0,1728250748,"~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml"
 -'  1  0  ~/ansible-dev/inv.yml
 |4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
 -'  1  0  ~/ansible-dev/inv.yml
 |4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728208777,"~/ansible-dev/inv.yml"
 -'  1  0  ~/ansible-dev/inv
 |4,39,1,0,1728208747,"~/ansible-dev/inv"
 -'  1  0  ~/ansible-dev/inv
@@ -63,6 +93,54 @@
 |4,39,1,0,1728208747,"~/ansible-dev/inv"
 -'  1  0  ~/ansible-dev/inv
 |4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv
+|4,39,1,0,1728208747,"~/ansible-dev/inv"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
+-'  1  0  ~/ansible-dev/inv.yml
+|4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
 -'  1  0  ~/ansible-dev/inv.yml
 |4,39,1,0,1728207486,"~/ansible-dev/inv.yml"
 -'  1  0  ~/ansible-dev/inv.yml
@@ -103,154 +181,91 @@
 |4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
 -'  12  18  ~/ansible-dev/inventory.yml
 |4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147347,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  4  12  ~/ansible-dev/inventory.yml
-|4,39,4,12,1728147266,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  10  2  ~/ansible-dev/inventory.yml
-|4,39,10,2,1728146994,"~/ansible-dev/inventory.yml"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
--'  6  27  ~/ansible-dev/ansible.cfg
-|4,39,6,27,1728146671,"~/ansible-dev/ansible.cfg"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
+-'  12  18  ~/ansible-dev/inventory.yml
+|4,39,12,18,1728147404,"~/ansible-dev/inventory.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1728255543	0
+	"	11	1
+	^	11	2
+	.	11	2
+	+	11	2
+
+> ~/.gitconfig
+	*	1728255340	0
+	"	5	33
+	^	5	34
+	.	5	33
+	+	4	21
+	+	5	33
 
 > ~/.ansible/tmp/ansible-local-15473l6pz76ax/tmpbyqebkat.yml
 	*	1728250744	0

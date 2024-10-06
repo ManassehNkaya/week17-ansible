@@ -12147,3 +12147,9 @@ Path for lint:
 cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
 /bin/sh: ansible-lint: command not found
 
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: ansible-lint: command not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Command failed: ansible-lint --version
+/bin/sh: ansible-lint: command not found
+
