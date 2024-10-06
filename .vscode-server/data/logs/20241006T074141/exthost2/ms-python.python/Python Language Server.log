@@ -1,0 +1,135 @@
+2024-10-06 08:24:47.247 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:24:47.958 [info] [Info  - 8:24:47 AM] (3187) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:24:47.960 [info] [Info  - 8:24:47 AM] (3187) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:24:47.968 [info] [Info  - 8:24:47 AM] (3187) Starting service instance "ec2-user"
+2024-10-06 08:24:48.027 [info] [Info  - 8:24:48 AM] (3187) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:24:48.028 [info] [Info  - 8:24:48 AM] (3187) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:24:48.029 [info] [Info  - 8:24:48 AM] (3187) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:24:48.030 [info] [Info  - 8:24:48 AM] (3187) Auto-excluding **/node_modules
+2024-10-06 08:24:48.031 [info] [Info  - 8:24:48 AM] (3187) Auto-excluding **/__pycache__
+2024-10-06 08:24:48.031 [info] [Info  - 8:24:48 AM] (3187) Auto-excluding **/.*
+2024-10-06 08:24:48.077 [info] [Info  - 8:24:48 AM] (3187) Assuming Python version 3.8.16.final.0
+2024-10-06 08:24:48.199 [info] [Info  - 8:24:48 AM] (3187) No source files found.
+2024-10-06 08:24:48.862 [info] [Info  - 8:24:48 AM] (3187) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:24:48.867 [info] [Info  - 8:24:48 AM] (3187) Background analysis(1) started
+2024-10-06 08:25:15.166 [info] [Info  - 8:25:15 AM] Server process exited successfully
+2024-10-06 08:25:15.822 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:25:16.633 [info] [Info  - 8:25:16 AM] (3259) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:25:16.635 [info] [Info  - 8:25:16 AM] (3259) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:25:16.646 [info] [Info  - 8:25:16 AM] (3259) Starting service instance "ec2-user"
+2024-10-06 08:25:16.734 [info] [Info  - 8:25:16 AM] (3259) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:25:16.734 [info] [Info  - 8:25:16 AM] (3259) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:25:16.745 [info] [Info  - 8:25:16 AM] (3259) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:25:16.745 [info] [Info  - 8:25:16 AM] (3259) Auto-excluding **/node_modules
+2024-10-06 08:25:16.745 [info] [Info  - 8:25:16 AM] (3259) Auto-excluding **/__pycache__
+2024-10-06 08:25:16.745 [info] [Info  - 8:25:16 AM] (3259) Auto-excluding **/.*
+2024-10-06 08:25:16.818 [info] [Info  - 8:25:16 AM] (3259) Assuming Python version 3.8.16.final.0
+2024-10-06 08:25:17.011 [info] [Info  - 8:25:17 AM] (3259) No source files found.
+2024-10-06 08:25:17.568 [info] [Info  - 8:25:17 AM] (3259) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:25:17.572 [info] [Info  - 8:25:17 AM] (3259) Background analysis(1) started
+2024-10-06 08:25:24.779 [info] [Info  - 8:25:24 AM] Server process exited successfully
+2024-10-06 08:25:25.836 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:25:27.054 [info] [Info  - 8:25:27 AM] (3291) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:25:27.055 [info] [Info  - 8:25:27 AM] (3291) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:25:27.065 [info] [Info  - 8:25:27 AM] (3291) Starting service instance "ec2-user"
+2024-10-06 08:25:27.176 [info] [Info  - 8:25:27 AM] (3291) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:25:27.177 [info] [Info  - 8:25:27 AM] (3291) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:25:27.179 [info] [Info  - 8:25:27 AM] (3291) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:25:27.179 [info] [Info  - 8:25:27 AM] (3291) Auto-excluding **/node_modules
+2024-10-06 08:25:27.179 [info] [Info  - 8:25:27 AM] (3291) Auto-excluding **/__pycache__
+2024-10-06 08:25:27.180 [info] [Info  - 8:25:27 AM] (3291) Auto-excluding **/.*
+2024-10-06 08:25:27.289 [info] [Info  - 8:25:27 AM] (3291) Assuming Python version 3.8.16.final.0
+2024-10-06 08:25:27.423 [info] [Info  - 8:25:27 AM] (3291) No source files found.
+2024-10-06 08:25:27.946 [info] [Info  - 8:25:27 AM] (3291) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:25:27.949 [info] [Info  - 8:25:27 AM] (3291) Background analysis(1) started
+2024-10-06 08:27:11.572 [info] [Info  - 8:27:11 AM] Server process exited successfully
+2024-10-06 08:27:12.193 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:27:14.546 [info] [Info  - 8:27:14 AM] (3419) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:14.547 [info] [Info  - 8:27:14 AM] (3419) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:27:14.554 [info] [Info  - 8:27:14 AM] (3419) Starting service instance "ec2-user"
+2024-10-06 08:27:14.687 [info] [Info  - 8:27:14 AM] (3419) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:27:14.688 [info] [Info  - 8:27:14 AM] (3419) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:27:14.690 [info] [Info  - 8:27:14 AM] (3419) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:27:14.692 [info] [Info  - 8:27:14 AM] (3419) Auto-excluding **/node_modules
+2024-10-06 08:27:14.693 [info] [Info  - 8:27:14 AM] (3419) Auto-excluding **/__pycache__
+2024-10-06 08:27:14.695 [info] [Info  - 8:27:14 AM] (3419) Auto-excluding **/.*
+2024-10-06 08:27:16.164 [info] [Info  - 8:27:16 AM] (3419) Assuming Python version 3.8.16.final.0
+2024-10-06 08:27:16.273 [info] [Info  - 8:27:16 AM] (3419) No source files found.
+2024-10-06 08:27:16.365 [info] [Info  - 8:27:16 AM] (3419) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:16.366 [info] [Info  - 8:27:16 AM] (3419) Background analysis(1) started
+2024-10-06 08:27:16.398 [info] [Info  - 8:27:16 AM] Server process exited successfully
+2024-10-06 08:27:17.004 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:27:17.529 [info] [Info  - 8:27:17 AM] (3437) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:17.530 [info] [Info  - 8:27:17 AM] (3437) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:27:17.549 [info] [Info  - 8:27:17 AM] (3437) Starting service instance "ec2-user"
+2024-10-06 08:27:17.628 [info] [Info  - 8:27:17 AM] (3437) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:27:17.629 [info] [Info  - 8:27:17 AM] (3437) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:27:17.630 [info] [Info  - 8:27:17 AM] (3437) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:27:17.631 [info] [Info  - 8:27:17 AM] (3437) Auto-excluding **/node_modules
+2024-10-06 08:27:17.631 [info] [Info  - 8:27:17 AM] (3437) Auto-excluding **/__pycache__
+2024-10-06 08:27:17.632 [info] [Info  - 8:27:17 AM] (3437) Auto-excluding **/.*
+2024-10-06 08:27:17.689 [info] [Info  - 8:27:17 AM] (3437) Assuming Python version 3.8.16.final.0
+2024-10-06 08:27:17.793 [info] [Info  - 8:27:17 AM] (3437) No source files found.
+2024-10-06 08:27:18.419 [info] [Info  - 8:27:18 AM] (3437) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:18.424 [info] [Info  - 8:27:18 AM] (3437) Background analysis(1) started
+2024-10-06 08:27:44.962 [info] [Info  - 8:27:44 AM] Server process exited successfully
+2024-10-06 08:27:45.650 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:27:46.370 [info] [Info  - 8:27:46 AM] (3451) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:46.372 [info] [Info  - 8:27:46 AM] (3451) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:27:46.381 [info] [Info  - 8:27:46 AM] (3451) Starting service instance "ec2-user"
+2024-10-06 08:27:46.469 [info] [Info  - 8:27:46 AM] (3451) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:27:46.469 [info] [Info  - 8:27:46 AM] (3451) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:27:46.470 [info] [Info  - 8:27:46 AM] (3451) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:27:46.472 [info] [Info  - 8:27:46 AM] (3451) Auto-excluding **/node_modules
+2024-10-06 08:27:46.472 [info] [Info  - 8:27:46 AM] (3451) Auto-excluding **/__pycache__
+2024-10-06 08:27:46.472 [info] [Info  - 8:27:46 AM] (3451) Auto-excluding **/.*
+2024-10-06 08:27:46.534 [info] [Info  - 8:27:46 AM] (3451) Assuming Python version 3.8.16.final.0
+2024-10-06 08:27:46.648 [info] [Info  - 8:27:46 AM] (3451) No source files found.
+2024-10-06 08:27:47.244 [info] [Info  - 8:27:47 AM] (3451) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:47.248 [info] [Info  - 8:27:47 AM] (3451) Background analysis(1) started
+2024-10-06 08:27:54.140 [info] [Info  - 8:27:54 AM] Server process exited successfully
+2024-10-06 08:27:54.859 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:27:55.671 [info] [Info  - 8:27:55 AM] (3479) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:55.672 [info] [Info  - 8:27:55 AM] (3479) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:27:55.693 [info] [Info  - 8:27:55 AM] (3479) Starting service instance "ec2-user"
+2024-10-06 08:27:55.771 [info] [Info  - 8:27:55 AM] (3479) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:27:55.772 [info] [Info  - 8:27:55 AM] (3479) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:27:55.773 [info] [Info  - 8:27:55 AM] (3479) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:27:55.775 [info] [Info  - 8:27:55 AM] (3479) Auto-excluding **/node_modules
+2024-10-06 08:27:55.776 [info] [Info  - 8:27:55 AM] (3479) Auto-excluding **/__pycache__
+2024-10-06 08:27:55.776 [info] [Info  - 8:27:55 AM] (3479) Auto-excluding **/.*
+2024-10-06 08:27:55.842 [info] [Info  - 8:27:55 AM] (3479) Assuming Python version 3.8.16.final.0
+2024-10-06 08:27:55.986 [info] [Info  - 8:27:55 AM] (3479) No source files found.
+2024-10-06 08:27:56.688 [info] [Info  - 8:27:56 AM] (3479) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:27:56.693 [info] [Info  - 8:27:56 AM] (3479) Background analysis(1) started
+2024-10-06 08:28:03.877 [info] [Info  - 8:28:03 AM] Server process exited successfully
+2024-10-06 08:28:04.502 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:28:05.151 [info] [Info  - 8:28:05 AM] (3493) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:28:05.153 [info] [Info  - 8:28:05 AM] (3493) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:28:05.162 [info] [Info  - 8:28:05 AM] (3493) Starting service instance "ec2-user"
+2024-10-06 08:28:05.214 [info] [Info  - 8:28:05 AM] (3493) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:28:05.214 [info] [Info  - 8:28:05 AM] (3493) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:28:05.214 [info] [Info  - 8:28:05 AM] (3493) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:28:05.214 [info] [Info  - 8:28:05 AM] (3493) Auto-excluding **/node_modules
+2024-10-06 08:28:05.215 [info] [Info  - 8:28:05 AM] (3493) Auto-excluding **/__pycache__
+2024-10-06 08:28:05.215 [info] [Info  - 8:28:05 AM] (3493) Auto-excluding **/.*
+2024-10-06 08:28:05.281 [info] [Info  - 8:28:05 AM] (3493) Assuming Python version 3.8.16.final.0
+2024-10-06 08:28:05.407 [info] [Info  - 8:28:05 AM] (3493) No source files found.
+2024-10-06 08:28:06.035 [info] [Info  - 8:28:06 AM] (3493) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:28:06.035 [info] [Info  - 8:28:06 AM] (3493) Background analysis(1) started
+2024-10-06 08:28:44.430 [info] [Info  - 8:28:44 AM] Server process exited successfully
+2024-10-06 08:28:45.126 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.16.0)
+2024-10-06 08:28:45.894 [info] [Info  - 8:28:45 AM] (3522) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:28:45.895 [info] [Info  - 8:28:45 AM] (3522) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-06 08:28:45.895 [info] [Info  - 8:28:45 AM] (3522) Starting service instance "ec2-user"
+2024-10-06 08:28:45.954 [info] [Info  - 8:28:45 AM] (3522) Setting environmentName for service "ec2-user": "3.8.16 (global)"
+2024-10-06 08:28:45.955 [info] [Info  - 8:28:45 AM] (3522) Setting pythonPath for service "ec2-user": "/bin/python3.8"
+2024-10-06 08:28:45.955 [info] [Info  - 8:28:45 AM] (3522) No include entries specified; assuming /home/ec2-user
+2024-10-06 08:28:45.956 [info] [Info  - 8:28:45 AM] (3522) Auto-excluding **/node_modules
+2024-10-06 08:28:45.956 [info] [Info  - 8:28:45 AM] (3522) Auto-excluding **/__pycache__
+2024-10-06 08:28:45.957 [info] [Info  - 8:28:45 AM] (3522) Auto-excluding **/.*
+2024-10-06 08:28:46.011 [info] [Info  - 8:28:46 AM] (3522) Assuming Python version 3.8.16.final.0
+2024-10-06 08:28:46.155 [info] [Info  - 8:28:46 AM] (3522) No source files found.
+2024-10-06 08:28:46.774 [info] [Info  - 8:28:46 AM] (3522) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-06 08:28:46.779 [info] [Info  - 8:28:46 AM] (3522) Background analysis(1) started
+2024-10-06 08:36:44.048 [info] [Error - 8:35:56 AM] Server process exited with signal SIGKILL.

@@ -1,0 +1,22 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-ef690171-e08b-4b54-ab8f-00bef154e6a0
+Extension host agent listening on /tmp/code-ef690171-e08b-4b54-ab8f-00bef154e6a0
+
+[18:39:03] 
+
+
+
+
+[18:39:03] Extension host agent started.
+[18:39:04] [<unknown>][c32fadde][ManagementConnection] Unknown reconnection token (never seen).
+[18:39:04] Deleted uninstalled extension from disk magicstack.magicpython /home/ec2-user/.vscode-server/extensions/magicstack.magicpython-1.1.0
+[18:39:14] [<unknown>][80339608][ManagementConnection] New connection established.
+[18:39:14] [<unknown>][f542e26b][ExtensionHostConnection] New connection established.
+[18:39:14] [<unknown>][f542e26b][ExtensionHostConnection] <6191> Launched Extension Host Process.
+[18:39:36] [File Watcher] Inotify limit reached (ENOSPC) (path: /usr/local/lib/python3.8/site-packages)

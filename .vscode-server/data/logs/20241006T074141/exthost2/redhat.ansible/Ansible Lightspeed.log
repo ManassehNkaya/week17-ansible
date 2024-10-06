@@ -1,0 +1,2 @@
+2024-10-06 08:24:43.104 [info] [ansible-lightspeed-user] Initializing LightspeedUser for Lightspeed URI https://c.ai.ansible.redhat.com and extension host Remote
+2024-10-06 08:24:43.104 [info] [ansible-lightspeed-user] Red Hat authentication extension is not installed.

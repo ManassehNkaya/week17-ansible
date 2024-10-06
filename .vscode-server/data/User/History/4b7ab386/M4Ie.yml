@@ -1,0 +1,18 @@
+---
+- hosts: ws 
+  become: true 
+  ignore_errors: yes
+  gather_facts: yes
+  vars:
+    f_name: John 
+  tasks:
+    - name: Debug module 
+      debug:
+        var: f_name
+    - name: check server uptime
+      command: uptime 
+      register: uptime_output
+
+    - name: Display output variable 
+      debug:
+        var: uptime_output  # not required. The path to the client private key.

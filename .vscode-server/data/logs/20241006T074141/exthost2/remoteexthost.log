@@ -1,0 +1,110 @@
+2024-10-06 07:45:10.346 [info] Extension host with pid 2631 started
+2024-10-06 07:45:10.388 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/b216eb221c8ea0ab95069215dcce9b51/vscode.lock': Lock acquired.
+2024-10-06 07:45:10.625 [info] Eager extensions activated
+2024-10-06 07:45:17.624 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 07:45:17.626 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-06 07:45:17.627 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-06 07:45:17.628 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 07:45:17.629 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-06 07:45:17.630 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 07:45:17.630 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-06 07:45:17.630 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 07:45:17.631 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-06 07:45:18.175 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-06 07:45:18.176 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-06 08:24:40.376 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:getting-started-with-ansible-extension', root cause: redhat.ansible
+2024-10-06 08:24:40.376 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onWalkthrough:getting-started-with-ansible-extension', root cause: redhat.ansible
+2024-10-06 08:24:42.178 [info] ExtensionService#_doActivateExtension redhat.ansible, startup: false, activationEvent: 'onWalkthrough:getting-started-with-ansible-extension'
+2024-10-06 08:24:42.818 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:24:42.850 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:24:44.379 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-10-06 08:24:56.865 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:24:58.541 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, unlink '/home/ec2-user/.vscode-server/data/User/globalStorage/vscode-redhat-telemetry/redhat.optin.json'
+	at hs.e (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:114:9061)
+	at Object.delete (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:114:8155)
+2024-10-06 08:25:15.110 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:25:15.160 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:25:18.300 [error] Error: Client is not running
+	at P.sendRequest (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2102916)
+	at Object._0x50f843 [as sendRequest] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:144733)
+	at _0x2c06b0.getConfigInfo (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:270094)
+	at _0x1883a4._updateDiagnosticsInternal (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:277071)
+	at p (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792722)
+	at E (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792929)
+	at Timeout.I [as _onTimeout] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792831)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2024-10-06 08:25:24.702 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:25:24.777 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:25:24.782 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:25:24.819 [info] ExtensionService#_doActivateExtension IkBenGeenRobot.ansible-variable-lookup, startup: false, activationEvent: 'onLanguage:yaml'
+2024-10-06 08:25:27.865 [error] Error: Client is not running
+	at P.sendRequest (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2102916)
+	at Object._0x50f843 [as sendRequest] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:144733)
+	at _0x2c06b0.getConfigInfo (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:270094)
+	at _0x1883a4._updateDiagnosticsInternal (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:277071)
+	at p (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792722)
+	at E (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792929)
+	at Timeout.I [as _onTimeout] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792831)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2024-10-06 08:27:00.171 [error] Error: Failed to resolve env "/home/ec2-user/.vscode-server/extensions/.867f040f-9f5f-4175-ac7e-6f326538157e/completions/snippets/python"
+	at ae (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2052229)
+	at oe (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2050189)
+	at Immediate.<anonymous> (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2046483)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-06 08:27:10.020 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:27:10.038 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:27:11.562 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:27:14.599 [error] Error: Client is not running
+	at P.sendRequest (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2102916)
+	at Object._0x50f843 [as sendRequest] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:144733)
+	at _0x2c06b0.getConfigInfo (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:270094)
+	at _0x1883a4._updateDiagnosticsInternal (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:277071)
+	at p (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792722)
+	at E (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792929)
+	at Timeout.I [as _onTimeout] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792831)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2024-10-06 08:27:15.398 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:27:16.388 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:27:19.390 [error] Error: Client is not running
+	at P.sendRequest (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2102916)
+	at Object._0x50f843 [as sendRequest] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:144733)
+	at _0x2c06b0.getConfigInfo (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:270094)
+	at _0x1883a4._updateDiagnosticsInternal (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:277071)
+	at p (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792722)
+	at E (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792929)
+	at Timeout.I [as _onTimeout] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792831)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2024-10-06 08:27:44.934 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:27:44.956 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:27:48.040 [error] Error: Client is not running
+	at P.sendRequest (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2102916)
+	at Object._0x50f843 [as sendRequest] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:144733)
+	at _0x2c06b0.getConfigInfo (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:270094)
+	at _0x1883a4._updateDiagnosticsInternal (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:277071)
+	at p (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792722)
+	at E (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792929)
+	at Timeout.I [as _onTimeout] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792831)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2024-10-06 08:27:54.108 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:27:54.139 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:27:57.265 [error] Error: Client is not running
+	at P.sendRequest (/home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/out/client/extension.js:2:2102916)
+	at Object._0x50f843 [as sendRequest] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:144733)
+	at _0x2c06b0.getConfigInfo (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:270094)
+	at _0x1883a4._updateDiagnosticsInternal (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/extension.bundle.js:1:277071)
+	at p (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792722)
+	at E (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792929)
+	at Timeout.I [as _onTimeout] (/home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2/dist/vendor.bundle.js:2:1792831)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2024-10-06 08:28:03.766 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:28:03.874 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:28:44.339 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 08:28:44.426 [warning] DiagnosticCollection with name 'settings' does already exist.
+2024-10-06 08:28:44.526 [info] ExtensionService#_doActivateExtension franneck94.vscode-python-config, startup: false, activationEvent: 'onStartupFinished'
+2024-10-06 08:28:44.573 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project InitialTargets="SetSigningProperties" DefaultTargets="SignFiles" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.props" Condition="Exists('..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.props')" />
+
+  <Target Name="SetSigningProperties">
+    <PropertyGroup>
+      <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+      <BaseOutputDirectory>dist\</BaseOutputDirectory>
+      <!-- These properties are required by MicroBuild, which only signs files that are under these paths -->
+      <IntermediateOutputPath Condition="'$(IntermediateOutputPath)' == ''">$(BaseOutputDirectory)/intermediate</IntermediateOutputPath>
+      <OutDir Condition="'$(OutDir)' == ''">$(BaseOutputDirectory)</OutDir>
+    </PropertyGroup>
+  </Target>
+
+  <!-- This will be overridden if we're building with MicroBuild -->
+  <Target Name="SignFiles">
+    <Message Text="Fake sign target" Importance="high" />
+  </Target>
+
+  <Target Name="SignExtraFiles" DependsOnTargets="Build;GetFilesToSign;SignFiles" />
+
+  <ItemGroup>
+    <OutputBinaryFile2Sign Include="Microsoft412" />
+    <OutputBinaryFile2Sign Include="MicrosoftSHA2" />
+    <OutputBinaryFile2Sign Include="Microsoft400" />
+    <OutputBinaryFile2Sign Include="MsDynamicCodePublish" />
+    <OutputBinaryFile2Sign Include="WindowsPhone623" />
+    <OutputBinaryFile2Sign Include="Microsoft644" />
+    <OutputBinaryFile2Sign Include="MicrosoftWin8Winblue" />
+    <OutputBinaryFile2Sign Include="PPMicrosoftWin8WinBlue" />
+    <OutputBinaryFile2Sign Include="Microsoft412" />
+    <OutputBinaryFile2Sign Include="3PartySHA2" />
+    <OutputBinaryFile2Sign Include="3PartyScriptsSHA2" />
+    <OutputBinaryFile2Sign Include="Microsoft400200" />
+    <OutputBinaryFile2Sign Include="MicrosoftWinBlue" />
+    <OutputBinaryFile2Sign Include="Microsoft445" />
+    <OutputBinaryFile2Sign Include="Microsoft447" />
+    <OutputBinaryFile2Sign Include="MicrosoftDotNet500" />
+    <OutputBinaryFile2Sign Include="MicrosoftDotNet500PH" />
+    <OutputBinaryFile2Sign Include="MicrosoftDotNet500200" />
+  </ItemGroup>
+
+  <Target Name="GetFilesToSign">
+    <ItemGroup>
+      <FilesToSign Include="extension.signature.p7s" Condition="'$(SignType)' == 'real'"> 
+      <!-- Add the certificate friendly name below -->
+      <Authenticode>VSCodePublisher</Authenticode> 
+  </FilesToSign> 
+    </ItemGroup>
+  </Target>
+
+  <ItemGroup>
+    <Content Include="*.json" />
+    <Content Include="*.ts" />
+    <Content Include="*.vsix" />
+    <Content Include="*.wasm" />
+    <Content Include="*.js" />
+  </ItemGroup>
+
+  <Target Name="Build">
+    <MakeDir Directories="$(OutDir)"/>
+  </Target>
+
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="Build">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packagesMicrosoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.targets'))" />
+  </Target>
+
+  <Import Project="..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.targets" Condition="Exists('..\packages\Microsoft.VisualStudioEng.MicroBuild.Core.1.0.0\build\Microsoft.VisualStudioEng.MicroBuild.Core.targets')" />
+</Project>

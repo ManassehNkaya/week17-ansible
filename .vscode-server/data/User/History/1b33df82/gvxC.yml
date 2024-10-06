@@ -1,0 +1,46 @@
+---
+- hosts: all
+  become: True
+  #become_user: root
+ 
+  tasks:
+    - name: Create a file
+      file:
+        path: /tmp/playbookfile
+        mode: '0755'
+        state: touch
+ 
+    - name: Create a Directory
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory
+ 
+    - name: Create a Group
+      group:
+        name: security
+        state: present
+ 
+    - name: Create user Manasseh
+      user:
+        comment: Manasseh Admin
+        group: security
+        shell: /bin/bash
+        name: Manasseh
+
+    - name: check uptime
+      command: uptime
+    - name: check datadog_event:
+      api_key:  # required. Your DataDog API key.
+      app_key:  # required. Your DataDog app key.
+      title:  # required. The event title.
+      text:  # required. The body of the event.
+      date_happened: now # not required. POSIX timestamp of the event. Default value is now.
+      priority: normal # not required. choices: normal;low. The priority of the event.
+      host: "{{ ansible_hostname }}" # not required. Host name to associate with the event.
+      tags:  # not required. Comma separated list of tags to apply to the event.
+      alert_type: error # not required. choices: error;warning;info;success. Type of alert.
+      aggregation_key:  # not required. An arbitrary string to use for aggregation.
+      validate_certs: yes # not required. If C(no), SSL certificates will not be validated. This should only be used on personally controlled sites using self-signed certificates.
+        
+     

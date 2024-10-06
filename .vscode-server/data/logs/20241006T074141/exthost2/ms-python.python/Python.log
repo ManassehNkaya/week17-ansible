@@ -1,0 +1,15 @@
+2024-10-06 08:24:42.538 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-06 08:24:42.538 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-06 08:24:42.538 [info] Experiment 'pythonTestAdapter' is active
+2024-10-06 08:24:42.538 [info] Native locator: Refresh started
+2024-10-06 08:24:42.539 [info] Default formatter is set to null for workspace /home/ec2-user
+2024-10-06 08:24:42.539 [info] Native locator: Refresh started
+2024-10-06 08:24:42.539 [info] > pyenv which python
+2024-10-06 08:24:42.539 [info] cwd: .
+2024-10-06 08:24:44.280 [info] Native locator: Refresh finished in 2480 ms
+2024-10-06 08:24:44.289 [info] > pixi --version
+2024-10-06 08:24:44.308 [info] Python interpreter path: /bin/python3.8
+2024-10-06 08:24:47.998 [info] Starting Pylance language server.
+2024-10-06 08:24:57.080 [info] Discover tests for workspace name: undefined - uri: c:/Users/manas/AppData/Roaming/Code/User/settings.json
+2024-10-06 08:27:00.396 [info] Discover tests for workspace name: ec2-user - uri: /home/ec2-user/.vscode-server/extensions/.3113357b-1073-4dd3-aa49-5eac7622091c/pythonFiles/pyproject.toml
+2024-10-06 08:28:43.798 [info] Discover tests for workspace name: ec2-user - uri: /home/ec2-user/.vscode-server/extensions/.ea22a4dc-4f95-43fa-a5ec-c94a2192c2b0/templates/settings.json

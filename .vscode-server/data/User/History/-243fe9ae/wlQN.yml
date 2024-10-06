@@ -1,0 +1,42 @@
+---
+- hosts: ws 
+  become: yes
+  tasks:
+      - name: Install required package
+        package:
+          state: present
+          name: "{{ item }}"
+        loop:
+          - unzip 
+          - wget
+          - httpd 
+      - name: download artifact 
+        get_url:
+          url: https://github.com/utrains/static-resume/archive/refs/heads/main.zip
+          dest: /tmp/main.zip
+
+      - name: Unarchive zip file 
+        unarchive: 
+          src: /tmp/main.zip
+          remote_src: yes
+          dest: /tmp
+      - name: Copy artifact to html folder 
+        copy:
+          remote_src: yes
+          src: /tmp/static-resume-main/
+          dest: /var/www/html/
+          #recursive: yes
+          owner: apache 
+          group: apache 
+          mode: '0755'
+
+      - name: Start the Daemon service 
+        system: all 
+        
+      - name: Ensure the daemon service is running
+        service:
+             name: daemon_name
+             state: started
+
+
+        

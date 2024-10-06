@@ -1,0 +1,15 @@
+---
+- hosts: ws 
+  tasks:
+      - name: Install required package
+        package:
+          state: present
+          name: "{{ item }}"
+        loop:
+          - unzip 
+          - wget
+          - httpd 
+      - name: download artifact 
+        get_url:
+          url:  
+     

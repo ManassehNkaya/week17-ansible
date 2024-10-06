@@ -1,0 +1,10 @@
+---
+- hosts: ws 
+  become: true 
+  ignore_errors: yes
+  gather_facts: yes
+  tasks:
+      - name: Install package 
+        yum: 
+          name: httpd 
+          stage:

@@ -1,0 +1,64 @@
+2024-10-06 18:46:15.438 [info] Extension host with pid 6605 started
+2024-10-06 18:46:15.438 [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a57fa6fc87f644cb4ab1b3bf855a31b5/vscode.lock'
+2024-10-06 18:46:15.447 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a57fa6fc87f644cb4ab1b3bf855a31b5/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-06 18:46:15.467 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a57fa6fc87f644cb4ab1b3bf855a31b5/vscode.lock': The lock does not look stale, elapsed: 928 ms, giving up.
+2024-10-06 18:46:15.483 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/a57fa6fc87f644cb4ab1b3bf855a31b5-1/vscode.lock': Lock acquired.
+2024-10-06 18:46:15.692 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-06 18:46:15.693 [info] ExtensionService#_doActivateExtension IkBenGeenRobot.ansible-variable-lookup, startup: false, activationEvent: 'onLanguage:yaml'
+2024-10-06 18:46:15.693 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-10-06 18:46:15.694 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: redhat.ansible
+2024-10-06 18:46:15.694 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-06 18:46:17.763 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-06 18:46:17.764 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-06 18:46:18.512 [info] Eager extensions activated
+2024-10-06 18:46:18.512 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-06 18:46:18.513 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-06 18:46:18.514 [info] ExtensionService#_doActivateExtension franneck94.vscode-python-config, startup: false, activationEvent: 'onStartupFinished'
+2024-10-06 18:46:18.907 [info] ExtensionService#_doActivateExtension redhat.ansible, startup: false, activationEvent: 'onLanguage:yaml'
+2024-10-06 18:46:19.740 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 18:46:19.829 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-10-06 18:46:20.095 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-10-06 19:08:07.692 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-06 19:08:13.441 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 19:08:13.442 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 19:08:13.442 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-06 21:28:11.169 [error] [IkBenGeenRobot.ansible-variable-lookup] provider FAILED
+2024-10-06 21:28:11.170 [error] TypeError: Cannot read properties of undefined (reading 'toString')
+	at VariableValue.valueToString (/home/ec2-user/.vscode-server/extensions/ikbengeenrobot.ansible-variable-lookup-1.1.18/out/variable_tree.js:100:26)
+	at /home/ec2-user/.vscode-server/extensions/ikbengeenrobot.ansible-variable-lookup-1.1.18/out/hover_popup.js:70:32
+	at Array.forEach (<anonymous>)
+	at HoverPopup.createPopup (/home/ec2-user/.vscode-server/extensions/ikbengeenrobot.ansible-variable-lookup-1.1.18/out/hover_popup.js:56:17)
+	at Object.provideHover (/home/ec2-user/.vscode-server/extensions/ikbengeenrobot.ansible-variable-lookup-1.1.18/out/extension.js:59:26)
+	at K3.provideHover (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:137:125227)
+	at file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:137:153311
+	at tr.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:137:150779)
+	at tr.$provideHover (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:137:153299)
+	at Zb.S (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155752)
+	at Zb.Q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155532)
+	at Zb.M (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:154583)
+	at Zb.L (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:153726)
+	at gh.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:152523)
+	at T.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at no.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9399)
+	at gh.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13273)
+	at T.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at no.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9399)
+	at Im.A (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12515)
+	at gh.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:10935)
+	at T.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at m5.acceptChunk (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7880)
+	at file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7166
+	at Socket.t (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15393)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-10-06 21:56:39.839 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-10-06 21:56:53.531 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-10-06 21:56:57.616 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-10-06 21:56:58.406 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-10-06 21:56:59.072 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix' requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.

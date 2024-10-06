@@ -1,0 +1,26 @@
+---
+- hosts: ws 
+  tasks:
+      - name: Install required package
+        package:
+          state: present
+          name: "{{ item }}"
+        loop:
+          - unzip 
+          - wget
+          - httpd 
+      - name: download artifact 
+        get_url:
+          url: https://github.com/utrains/static-resume/archive/refs/heads/main.zip
+          dest: /tmp/main.zip
+
+      - name: Unarchive zip file 
+        unarchive: 
+          src: /tmp/main.zip
+          remote_src: yes
+          dest: /tmp
+      - name: Copy artifact to html folder 
+        copy:
+          src: /tmp/static-resume-main/
+          dest: /var/
+     

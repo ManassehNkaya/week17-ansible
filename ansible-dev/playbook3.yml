@@ -1,0 +1,18 @@
+---
+- hosts: ws 
+  become: true 
+  ignore_errors: yes
+  gather_facts: yes
+  vars_files:
+    - vars.yml
+
+  tasks:
+    - name: Download package
+      get_url:
+         url: "{{ LINK_URL }}"
+         dest: "{{ DESTINATION }}"
+    - name: Delete file 
+      file:
+        path: "{{ DESTINATION }}"
+        state: absent
+ 

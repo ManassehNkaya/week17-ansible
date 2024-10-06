@@ -1,0 +1,12 @@
+2024-10-06 18:46:19.756 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-06 18:46:19.757 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-06 18:46:19.757 [info] Experiment 'pythonTestAdapter' is active
+2024-10-06 18:46:19.757 [info] Native locator: Refresh started
+2024-10-06 18:46:19.757 [info] Default formatter is set to null for workspace /home/ec2-user
+2024-10-06 18:46:19.757 [info] Native locator: Refresh started
+2024-10-06 18:46:19.776 [info] > pyenv which python
+2024-10-06 18:46:19.776 [info] cwd: .
+2024-10-06 18:46:20.055 [info] Native locator: Refresh finished in 2306 ms
+2024-10-06 18:46:20.057 [info] Python interpreter path: /usr/bin/python3.8
+2024-10-06 18:46:21.769 [info] > pixi --version
+2024-10-06 18:46:24.307 [info] Starting Pylance language server.

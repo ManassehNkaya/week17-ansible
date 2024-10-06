@@ -1,0 +1,5 @@
+.cache/
+.ssh/
+.viminfo
+.vscode-server/
+ansible-key.pem

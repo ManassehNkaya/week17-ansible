@@ -1,0 +1,21 @@
+---
+- hosts: ws 
+  become: true 
+  ignore_errors: yes
+  gather_facts: yes
+  vars_files:
+    -vars.yml
+
+- name: Download a file from a URL
+  hosts: all
+  tasks:
+    - name: Download file
+      get_url:
+        url: "{{ LINK_URL }}"
+        dest: "{{ DESTINATION }}"
+
+    - name: Remove the downloaded ZIP file
+      file:
+         path: "{{ DESTINATION }}"
+         state: absent
+ 

@@ -1,0 +1,86 @@
+{
+	"name": "ansible-variable-lookup",
+	"displayName": "Ansible Variable Lookup",
+	"description": "Helps finding the definition and usages of ansible variables",
+	"publisher": "IkBenGeenRobot",
+	"icon": "logo.png",
+	"version": "1.1.18",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/public-repo4311047/ansible-variable-lookup-vscode-extension.git"
+	},
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:yaml",
+		"onLanguage:ansible",
+		"workspaceContains:tasks/main.yml"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Ansible Variable Lookup",
+			"properties": {
+				"ansible-variable-lookup.enableOnLanguages": {
+					"type": "string",
+					"default": "yaml, ansible, shellscript, jinja, ansible-jinja",
+					"description": "On what languages should this extension be enabled, adding languages to this list will make the extension register with vscode on when a file of the given type is open. For example this extension will not run on a plaintext file, but if you have templated values in a specific file type, you can add them here. \n\nRequires a restart of the extension (or vscode)."
+				},
+				"ansible-variable-lookup.enableHover": {
+					"type": "boolean",
+					"default": true,
+					"description": "If not enabled the variables values can still be found using the \"Go To Definition\" context menu or the F12 key (or the key that is configured for \"Go To Definition\")."
+				},
+				"ansible-variable-lookup.truncateHoverLinkLength": {
+					"type": "integer",
+					"default": 40,
+					"description": "Long values can be truncated in the hover popup. Set the max length of the link path to display here. Only applicable to the pop-up hover."
+				},
+				"ansible-variable-lookup.truncateHoverValueLength": {
+					"type": "integer",
+					"default": 80,
+					"description": "Long values can be truncated in the hover popup. Set the max length of the content of the value to display here. Only applicable to the pop-up hover."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"@types/vscode": "^1.74.0",
+		"@typescript-eslint/eslint-plugin": "^7.0.2",
+		"@typescript-eslint/parser": "^7.0.2",
+		"@vscode/test-cli": "^0.0.6",
+		"@vscode/test-electron": "^2.3.9",
+		"eslint": "^8.56.0",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"yaml": "^2.4.0"
+	},
+	"__metadata": {
+		"id": "908c26cc-8320-485e-b13d-1ea0c75df0bb",
+		"publisherId": "24e6441a-76c8-46f1-ba9b-fc7c1a8442da",
+		"publisherDisplayName": "IkBenGeenRobot",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1728203123930,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

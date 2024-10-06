@@ -1,0 +1,7 @@
+---
+- hosts: ws 
+  become: true 
+  ignore_errors: yes
+  gather_facts: yes
+
+  

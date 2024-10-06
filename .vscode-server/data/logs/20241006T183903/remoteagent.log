@@ -1,0 +1,24 @@
+2024-10-06 18:39:03.739 [info] 
+
+
+
+
+2024-10-06 18:39:03.801 [info] Extension host agent started.
+2024-10-06 18:39:04.061 [error] [<unknown>][c32fadde][ManagementConnection] Unknown reconnection token (never seen).
+2024-10-06 18:39:04.146 [info] Deleted uninstalled extension from disk magicstack.magicpython /home/ec2-user/.vscode-server/extensions/magicstack.magicpython-1.1.0
+2024-10-06 18:39:14.516 [info] [<unknown>][80339608][ManagementConnection] New connection established.
+2024-10-06 18:39:14.530 [info] [<unknown>][f542e26b][ExtensionHostConnection] New connection established.
+2024-10-06 18:39:14.534 [info] [<unknown>][f542e26b][ExtensionHostConnection] <6191> Launched Extension Host Process.
+2024-10-06 18:39:36.339 [error] [File Watcher] Inotify limit reached (ENOSPC) (path: /usr/local/lib/python3.8/site-packages)
+2024-10-06 18:44:03.803 [info] New EH opened, aborting shutdown
+2024-10-06 18:44:03.806 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/server/node/server.main.js:189:5899)
+    at process.emit (node:events:531:35)
+2024-10-06 18:45:21.954 [info] [<unknown>][80339608][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-06 18:46:13.445 [info] [<unknown>][80339608][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-10-06 18:46:13.446 [info] [<unknown>][2ef3985c][ManagementConnection] New connection established.
+2024-10-06 18:46:13.483 [info] [<unknown>][0b43662c][ExtensionHostConnection] New connection established.
+2024-10-06 18:46:13.488 [info] [<unknown>][0b43662c][ExtensionHostConnection] <6605> Launched Extension Host Process.
+2024-10-06 18:46:28.936 [error] [File Watcher] Inotify limit reached (ENOSPC) (path: /home/ec2-user)
+2024-10-06 18:51:13.570 [info] [<unknown>][80339608][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-10-06 18:51:14.185 [info] [<unknown>][f542e26b][ExtensionHostConnection] <6191> Extension Host Process exited with code: 0, signal: null.

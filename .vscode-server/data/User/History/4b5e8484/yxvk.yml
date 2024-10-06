@@ -1,0 +1,16 @@
+---
+- hosts: ws 
+  become: true 
+  ignore_errors: yes
+  gather_facts: yes
+  vars:
+      package_name: httpd 
+  tasks:
+      - name: Install package 
+        yum: 
+          name: "{{package_name}}"
+          state: present 
+
+      - name: create groups 
+        group: 
+          name: cloud

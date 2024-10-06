@@ -1,0 +1,31 @@
+2024-10-06 08:24:42.539 [info] Starting Python Locator /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.16.0-linux-x64/python-env-tools/bin/pet server
+2024-10-06 08:24:42.550 [info] Discovered env: /usr/bin/python
+2024-10-06 08:24:42.553 [info] Discovered env: /bin/python
+2024-10-06 08:24:43.150 [info] Discovered env: /bin/python3
+2024-10-06 08:24:43.157 [info] Discovered env: /usr/bin/python3
+2024-10-06 08:24:44.060 [info] Discovered env: /bin/python3.8
+2024-10-06 08:24:44.074 [info] Discovered env: /usr/bin/python3.8
+2024-10-06 08:24:44.257 [info] Locator Conda took 298.751394ms
+2024-10-06 08:24:44.258 [info] Locator Homebrew took 14.831025ms
+2024-10-06 08:24:44.258 [info] Locator LinuxGlobal took 2.268335285s
+2024-10-06 08:24:44.258 [info] Locator PipEnv took 43.625µs
+2024-10-06 08:24:44.258 [info] Locator Poetry took 116.348µs
+2024-10-06 08:24:44.258 [info] Locator PyEnv took 146.609µs
+2024-10-06 08:24:44.258 [info] Locator Venv took 16.454µs
+2024-10-06 08:24:44.258 [info] Locator VirtualEnv took 17.059µs
+2024-10-06 08:24:44.258 [info] Locator VirtualEnvWrapper took 13.961µs
+2024-10-06 08:24:44.258 [info] Locator GlobalVirtualEnvs took 58.595µs
+2024-10-06 08:24:44.258 [info] Locator Locators took 2.27410202s
+2024-10-06 08:24:44.258 [info] Locator Path took 2.447685128s
+2024-10-06 08:24:44.258 [info] Locator Workspaces took 13.448481ms
+2024-10-06 08:24:44.258 [info] Refresh completed in 2456ms
+2024-10-06 08:24:44.307 [info] Resolved Python Environment /bin/python3.8
+2024-10-06 08:25:16.706 [info] Resolved Python Environment /bin/python3.8
+2024-10-06 08:26:02.332 [info] Resolved Python Environment /bin/python3.8
+2024-10-06 08:26:59.070 [warning] Could not find Python executable in "/home/ec2-user/.vscode-server/extensions/.867f040f-9f5f-4175-ac7e-6f326538157e/completions/snippets/python"
+2024-10-06 08:26:59.131 [error] Failed to execute Python to resolve info "/home/ec2-user/.vscode-server/extensions/.867f040f-9f5f-4175-ac7e-6f326538157e/completions/snippets/python": Permission denied (os error 13)
+2024-10-06 08:26:59.131 [warning] Unknown Python Env "/home/ec2-user/.vscode-server/extensions/.867f040f-9f5f-4175-ac7e-6f326538157e/completions/snippets/python"
+2024-10-06 08:26:59.131 [error] Failed to resolve env "/home/ec2-user/.vscode-server/extensions/.867f040f-9f5f-4175-ac7e-6f326538157e/completions/snippets/python"
+2024-10-06 08:27:14.666 [info] Resolved Python Environment /bin/python3.8
+2024-10-06 08:27:46.432 [info] Resolved Python Environment /bin/python3.8
+2024-10-06 08:28:18.604 [info] Resolved Python Environment /bin/python3.8

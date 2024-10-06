@@ -1,0 +1,30 @@
+---
+- hosts: all
+  become: True
+  #become_user: root
+ 
+  tasks:
+    - name: Create a file
+      file:
+        path: /tmp/playbookfile
+        mode: '0756'
+        state: touch
+ 
+    - name: Create a Directory
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory
+ 
+    - name: Create a Group
+      group:
+        name: security
+        state: present
+ 
+    - name: Create user called Robert
+      user:
+        name: create user Manasseh
+        comment: Manasseh Admin
+        group: security
+        
+     

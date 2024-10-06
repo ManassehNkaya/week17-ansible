@@ -1,0 +1,46 @@
+---
+- hosts: all
+  become: True
+  ignore_errors: 1
+  gather_facts: yes
+  #become_user: root
+ 
+  tasks:
+    - name: Create a file
+      file:
+        path: /tmp/playbookfile
+        mode: '0755'
+        state: touch
+
+    - name: check something
+      command: jaksjhdhd
+     
+ 
+    - name: Create a Directory
+      file:
+        path: /tmp/dir
+        mode: '0700'
+        state: directory
+
+   
+ 
+    - name: Create a Group
+      group:
+        name: security
+        state: present
+ 
+    - name: Create user Manasseh
+      user:
+        comment: Manasseh Admin
+        group: security
+        shell: /bin/bash
+        name: Manasseh
+      when: ansible_os_family == "Debian"
+
+    - name: check uptime
+      command: uptime
+    - name: check the date 
+      shell: cat /etc/passwd | grep Manasseh
+      
+        
+     

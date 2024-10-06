@@ -1,0 +1,43 @@
+2024-10-06 09:39:47.836 [info] 
+
+
+
+
+2024-10-06 09:39:47.895 [info] Extension host agent started.
+2024-10-06 09:39:48.842 [info] [<unknown>][f16b0f27][ManagementConnection] New connection established.
+2024-10-06 09:39:48.844 [info] [<unknown>][39a7d596][ExtensionHostConnection] New connection established.
+2024-10-06 09:39:48.928 [info] [<unknown>][39a7d596][ExtensionHostConnection] <2576> Launched Extension Host Process.
+2024-10-06 09:40:16.606 [info] [<unknown>][f16b0f27][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-06 09:40:16.646 [info] [<unknown>][39a7d596][ExtensionHostConnection] <2576> Extension Host Process exited with code: 0, signal: null.
+2024-10-06 09:40:16.647 [info] Cancelling previous shutdown timeout
+2024-10-06 09:40:16.647 [info] Last EH closed, waiting before shutting down
+2024-10-06 09:40:22.099 [info] [<unknown>][5aafd98f][ExtensionHostConnection] New connection established.
+2024-10-06 09:40:22.102 [info] [<unknown>][5aafd98f][ExtensionHostConnection] <2748> Launched Extension Host Process.
+2024-10-06 09:40:22.105 [info] [<unknown>][c32fadde][ManagementConnection] New connection established.
+2024-10-06 09:40:24.006 [error] CodeExpectedError: Could not find pty 8 on pty host
+    at M.U (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:11102)
+    at M.updateTitle (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:6412)
+    at s.<computed> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:48:1843)
+    at Object.call (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4127)
+    at Fc.s (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78860)
+    at Fc.q (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78383)
+    at os.value (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77785)
+    at y.B (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:732)
+    at y.fire (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:29:950)
+    at process.v (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29096)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-06 09:45:16.650 [info] New EH opened, aborting shutdown
+2024-10-06 09:45:16.652 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ec2-user/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/out/vs/server/node/server.main.js:189:5899)
+    at process.emit (node:events:531:35)
+2024-10-06 09:51:20.460 [error] [File Watcher] Inotify limit reached (ENOSPC) (path: /usr/local/lib/python3.8/site-packages)
+2024-10-06 10:33:22.599 [info] Uninstalling extension from the profile: magicstack.magicpython@1.1.0 file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-10-06 10:33:22.714 [info] Marked extension as uninstalled magicstack.magicpython-1.1.0
+2024-10-06 10:33:22.817 [info] Successfully uninstalled extension from the profile magicstack.magicpython@1.1.0 file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-10-06 10:55:54.434 [info] [<unknown>][c32fadde][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-10-06 13:55:34.636 [info] [<unknown>][5aafd98f][ExtensionHostConnection] <2748> Extension Host Process exited with code: 0, signal: null.
+2024-10-06 13:55:34.636 [info] Last EH closed, waiting before shutting down
+2024-10-06 13:55:59.363 [info] [<unknown>][c32fadde][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-10-06 14:00:34.637 [info] Last EH closed, shutting down
