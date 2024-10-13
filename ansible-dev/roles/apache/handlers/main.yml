@@ -1,0 +1,5 @@
+---
+- name: Restart Daemon
+  service: 
+      name: httpd
+      state: restarted

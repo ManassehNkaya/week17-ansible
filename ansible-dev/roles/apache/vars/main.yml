@@ -1,0 +1,8 @@
+---
+apache_pkg: httpd
+pkg_state: present
+service_name: httpd
+service_state: started
+file_path: /var/www/html/index.html
+file_state: touch
+content: '<h1> This is my Ansible wbserver </h1>'

@@ -1,0 +1,5 @@
+---
+- hosts: ws
+  become: true
+  roles:
+    - apache
